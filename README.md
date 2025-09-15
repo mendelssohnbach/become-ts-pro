@@ -44,5 +44,5 @@ export type Status = typeof Status[keyof typeof Status];
 // TypeScriptコンパイラ
 $ npx tsc
 //  Node.jsとして実行
-$ ndoe dist/inde.js
+$ node dist/inde.js
 ```

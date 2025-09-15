@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/mendelssohnbach/become-ts-pro/issues"
   },
-  "homepage": "https://github.com/mendelssohnbach/become-ts-pro#readme"
+  "homepage": "https://github.com/mendelssohnbach/become-ts-pro#readme",
+  "devDependencies": {
+    "@types/node": "^24.4.0",
+    "typescript": "^5.9.2"
+  }
 }

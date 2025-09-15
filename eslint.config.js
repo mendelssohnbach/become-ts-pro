@@ -25,7 +25,7 @@ export default [
           message: 'Enums are not allowed. Use union types instead.',
         },
         {
-          // namespace の使用を禁止する
+          // namespace の使用を禁止するnp
           selector: 'TSModuleDeclaration',
           message: 'Namespaces are not allowed. Use ES Modules instead.',
         },

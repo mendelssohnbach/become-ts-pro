@@ -30,6 +30,7 @@ export default [
           message: 'Namespaces are not allowed. Use ES Modules instead.',
         },
       ],
+      'import-x/no-unresolved': 'error',
     },
   },
 ];

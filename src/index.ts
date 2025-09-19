@@ -1,6 +1,12 @@
-const big = 1e8;
-const small = 4e-5;
+import { createInterface } from 'readline';
 
-console.log(`big: ${big}, small: ${small}`);
-// big: 100000000, small: 0.00004
-// P36
+const rl = createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question('文字列を入力してください:', (line) => {
+  console.log(`${line} が入力されました`);
+  rl.close();
+});
+// Chapter2 P42
